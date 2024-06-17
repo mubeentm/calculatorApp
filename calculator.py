@@ -1,3 +1,6 @@
+'''
+Basic calculator
+'''
 def add():
     a = int(input("Enter value for a :"))
     b = int(input("Enter the value for b :"))
@@ -24,7 +27,9 @@ def percentag():
     a=int(input("Enter the no. : "))
     percent=int(input("Enter the percentage : "))
     return (a*percent)/100
-
+print('*'*20)
+print("Welcome to Simple calculator")
+print('*'*20)
 print("Enter the option \n1.Add\n2.Substract\n3.Multiply\n4.Division")
 n= int(input("Enter the option : " ))
 while(True):
